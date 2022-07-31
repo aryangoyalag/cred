@@ -32,7 +32,7 @@ class Item(BaseModel):
 
 app = FastAPI()
 origins = [
-    "https://cc-defaulter-checker.vercel.app/",
+    "https://cc-defaulter-checker.vercel.app",
     "http://localhost",
     "http://localhost:3000",
 ]
